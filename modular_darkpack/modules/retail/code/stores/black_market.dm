@@ -2,10 +2,11 @@
 /obj/structure/retail/black_market
 	products_list = list(
 		new /datum/data/vending_product("lighter", /obj/item/lighter/greyscale, 10),
+		new /datum/data/vending_product("rolling paper", /obj/item/rollingpaper, 10), // CRIMSON EDIT ADD - Shop Inventories Additions
 		new /datum/data/vending_product("zippo lighter", /obj/item/lighter, 20),
 		new /datum/data/vending_product("Bailer", /obj/item/reagent_containers/cup/watering_can/metal, 20),
 		new /datum/data/vending_product("Weed Seed", /obj/item/seeds/cannabis, 20),
-		new /datum/data/vending_product("cannabis puff", /obj/item/cigarette/rollie/cannabis, 40),
+		new /datum/data/vending_product("cannabis joint", /obj/item/cigarette/rollie/cannabis, 40), // CRIMSON EDIT - Shop Inventories Additions - Original: "cannabis puff"
 		new /datum/data/vending_product("bong", /obj/item/bong, 50),
 		new /datum/data/vending_product("lockpick", /obj/item/vamp/keys/hack, 50),
 		new /datum/data/vending_product("LSD pill bottle", /obj/item/storage/pill_bottle/lsd, 50),
@@ -22,6 +23,10 @@
 		new /datum/data/vending_product("morphine syringe", /obj/item/reagent_containers/syringe/contraband/morphine, 800),
 		new /datum/data/vending_product("meth package", /obj/item/reagent_containers/cup/glass/baggie/meth, 800),
 		new /datum/data/vending_product("cocaine package", /obj/item/reagent_containers/cup/glass/baggie/meth/cocaine, 800),
+// CRIMSON EDIT ADD START - Medkit to Pharmacy
+		new /datum/data/vending_product("Compact Medical Kit", /obj/item/storage/medkit/tactical_lite, 1125),
+		new /datum/data/vending_product("Coroner's Surgical Kit", /obj/item/storage/medkit/coroner, 750),
+// CRIMSON EDIT ADD END - Medkit to Pharmacy
 		new /datum/data/vending_product("silver 9mm ammo", /obj/item/ammo_box/darkpack/c9mm/silver, 5000),
 		new /datum/data/vending_product("silver .45 ACP ammo", /obj/item/ammo_box/darkpack/c45acp/silver, 6000),
 		new /datum/data/vending_product("silver .44 ammo", /obj/item/ammo_box/darkpack/c44/silver, 7000),
