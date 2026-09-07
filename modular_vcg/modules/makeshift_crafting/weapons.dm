@@ -1,3 +1,14 @@
+/obj/item/claymore/machete/scrap
+	name = "scrap machete"
+	desc = "A certified chopper fit for the jungles...but you don't see any vines around. Well-weighted enough to be thrown."
+	icon = 'modular_darkpack/modules/weapons/icons/weapons.dmi'
+	lefthand_file = 'modular_darkpack/modules/deprecated/icons/lefthand.dmi'
+	righthand_file = 'modular_darkpack/modules/deprecated/icons/righthand.dmi'
+	worn_icon = 'modular_darkpack/modules/weapons/icons/worn_melee.dmi'
+	ONFLOOR_ICON_HELPER('modular_darkpack/modules/weapons/icons/weapons_onfloor.dmi')
+	icon_state = "machete"
+	inhand_icon_state = "machete"
+
 /obj/item/claymore/ms13/machete/shishkebab
 	name = "shishkebab"
 	desc = "A slightly dull makeshift sword, rigged up to dispense hot injustice at the flip of a switch."
